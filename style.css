@@ -1,4 +1,4 @@
-.content {
+.content1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 h1 {
@@ -7,3 +7,43 @@ h1 {
 #dog {
     font-size: 9px;
 }
+
+
+
+
+
+        /* portfolio styles */
+
+        #head {
+            color: black;
+        }
+
+        .nav-a {
+            text-decoration: none;
+            color : blue;
+        }
+
+         .content h1 {
+            color: black;
+        }
+
+        #portfolio {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        #portfolio li {
+            background: white;
+            padding: 10px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        #portfolio li:hover {
+            background: white;
+        }
+
+        #portfolio a {
+            text-decoration: none;
+            color: blue;
+        }
