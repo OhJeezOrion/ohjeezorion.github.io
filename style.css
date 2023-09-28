@@ -1,12 +1,18 @@
-.content1 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-h1 {
-    color:darkgreen;
-}
-#dog {
-    font-size: 9px;
-}
+
+
+    /* website styles */
+
+    .content1 {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    h1 {
+        color:darkgreen;
+    }
+
+    #dog {
+        font-size: 9px;
+    }
 
 
 
@@ -14,11 +20,41 @@ h1 {
 
         /* portfolio styles */
 
+
+        /*
+        
+        .nav {
+            background-color: white;
+            max-width: 25%;
+            min-width: 140px;
+            flex: 1;
+          }
+  
+        #all-contents {
+            display: flex;
+        }
+
+        .content {
+            background-color: white;
+            text-align: center;
+            max-width: 100%;
+            min-width: 140px;
+            flex: 1;
+        }
+        
+        */
+
+
+
         #all-contents {
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         }
         
         #head {
+            /* 
+            text-align: center;
+            */
+            
             color: black;
         }
 
