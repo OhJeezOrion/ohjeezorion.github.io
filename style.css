@@ -15,21 +15,29 @@
     }
 
 
-
+    /*
+    .list {
+        background-color: white;
+        padding: 10px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+    */
 
 
         /* portfolio styles */
 
-
-        /*
         
+        
+        /*
         .nav {
-            background-color: white;
+            background-color: limegreen;
             max-width: 25%;
             min-width: 140px;
             flex: 1;
           }
-  
+        
+
         #all-contents {
             display: flex;
         }
@@ -41,39 +49,46 @@
             min-width: 140px;
             flex: 1;
         }
-        
         */
-
-
+        
+        body {
+            background-image: url('https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+        }
 
         #all-contents {
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         }
         
         #head {
-            /* 
+             
             text-align: center;
-            */
-            
             color: black;
         }
 
+        
         .nav-a {
             text-decoration: none;
-            color : blue;
+            color: blue;
+            background-color: whitesmoke;
+            padding: 10px;
+            border-radius: 10px;
+            margin-bottom: 10px;
         }
+        
 
          .content h1 {
             color: black;
+            text-align: center;
         }
 
         #portfolio {
             list-style-type: none;
             padding-left: 0;
+            text-align: center;
         }
 
         #portfolio li {
-            background: white;
+            background-color: whitesmoke;
             padding: 10px;
             border-radius: 10px;
             margin-bottom: 10px;
