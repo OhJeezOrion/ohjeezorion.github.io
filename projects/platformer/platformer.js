@@ -44,7 +44,7 @@ $(function () {
     // You must decide the x position, y position, width, and height of the platforms
     // example usage: createPlatform(x,y,width,height)
 
-
+    
 
     
     // TODO 2
@@ -72,3 +72,26 @@ $(function () {
 
   registerSetup(setup);
 });
+
+//create walls
+
+//Walls//
+createPlatform(150, 0, 20, 500);
+createPlatform(1200, 625, 20, 150);
+
+//Platforms//
+createPlatform(1200, 625, 200, 20);
+createPlatform(150, 500, 950, 20);
+//createPlatform(0, 375, 300, 20);
+
+//Cannon
+//createCannon("Left" 150, 10, 30, 30);
+
+//Collectables//
+//grace, steve, diamond, kennedi, max, and database//
+createCollectable("grace", 200, 650);
+createCollectable("steve", 200, 400);
+createCollectable("diamond", 300, 400);
+createCollectable("kennedi", 400, 400);
+createCollectable("max", 700, 400);
+createCollectable("database", 800, 400);
